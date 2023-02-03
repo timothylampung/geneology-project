@@ -7,6 +7,7 @@
     <script src="https://unpkg.com/d3@6"></script>
     <script src="https://unpkg.com/family-chart"></script>
     <link rel="stylesheet" href="./family-chart.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <!-- create file 'family-chart.css' in same directory, copy/paste css from examples/create-tree -->
 </head>
 <body>
@@ -47,144 +48,19 @@
     store.update.tree({initial: true});
 
     function data() {
-        return [
+        var data = [];
 
-            {
-                id: "0c09cfa0-5e7c-4073-8beb-94f6c69ada19",
-                data: {
-                    gender: "M",
-                    "first name": "Merno Aing",
-                    "last name": "Ebau",
-                    birthday: "",
-                    avatar: ""
-                },
-                rels: {
-                    spouses: ["0fa5c6bc-5b58-40f5-a07e-d787e26d8b56"],
-                    children: ["0fa5c6bc-5b58-40f5-a07e-d787f26d8b56",
-                        "0fa5c6bscs-5b58-40f5-a07e-d787f26d8b56"]
-                }
-            },
-            {
-                id: "0fa5c6bc-5b58-40f5-a07e-d787e26d8b56",
-                data: {
-                    gender: "F",
-                    "first name": "Priscilla",
-                    "last name": "Ludek",
-                    birthday: "",
-                    avatar: ""
-                },
-                rels: {
-                    spouses: ["0c09cfa0-5e7c-4073-8beb-94f6c69ada19"],
-                    father: "12a9bddf-855a-4583-a695-c73fa8c0e9b2",
-                    mother: "bd56a527-b613-474d-9f38-fcac0aae218b",
-                    children: ["0fa5c6bc-5b58-40f5-a07e-d787f26d8b56", "0fa5c6bscs-5b58-40f5-a07e-d787f26d8b56"]
 
-                }
-            },
-            {
-                id: "0fa5c6bc-5b58-40f5-a07e-d787f26d8b56",
-                data: {
-                    gender: "F",
-                    "first name": "Esther Ell Epa",
-                    "last name": "",
-                    birthday: "",
-                    avatar: ""
-                },
-                rels: {
-                    father: "0c09cfa0-5e7c-4073-8beb-94f6c69ada19",
-                    mother: "0fa5c6bc-5b58-40f5-a07e-d787e26d8b56"
-                }
-            },
-
-            {
-                id: "0fa5c6bscs-5b58-40f5-a07e-d787f26d8b56",
-                data: {
-                    gender: "F",
-                    "first name": "Elzra El Tia",
-                    "last name": "",
-                    birthday: "",
-                    avatar: ""
-                },
-                rels: {
-                    father: "0c09cfa0-5e7c-4073-8beb-94f6c69ada19",
-                    mother: "0fa5c6bc-5b58-40f5-a07e-d787e26d8b56"
-                }
-            },
-            {
-                id: "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5f",
-                data: {
-                    gender: "M",
-                    "first name": "Casteen",
-                    "last name": "Asang",
-                    birthday: "",
-                    avatar: ""
-                },
-                rels: {
-                    father: "12a9bddf-855a-4583-a695-c73fa8c0e9b2",
-                    mother: "bd56a527-b613-474d-9f38-fcac0aae218b",
-                }
-            },
-            {
-                id: "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5j",
-                data: {
-                    gender: "M",
-                    "first name": "Timothy",
-                    "last name": "Lampung",
-                    birthday: "",
-                    avatar: ""
-                },
-                rels: {
-                    father: "12a9bddf-855a-4583-a695-c73fa8c0e9b2",
-                    mother: "bd56a527-b613-474d-9f38-fcac0aae218b",
-                }
-            },
-            {
-                id: "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5kf",
-                data: {
-                    gender: "M",
-                    "first name": "Fabian",
-                    "last name": "Lampung",
-                    birthday: "",
-                    avatar: ""
-                },
-                rels: {
-                    father: "12a9bddf-855a-4583-a695-c73fa8c0e9b2",
-                    mother: "bd56a527-b613-474d-9f38-fcac0aae218b",
-                }
-            },
-            {
-                id: "12a9bddf-855a-4583-a695-c73fa8c0e9b2",
-                data: {
-                    gender: "M",
-                    "first name": "Lampung",
-                    "last name": "Ncuk",
-                    birthday: "",
-                    avatar: ""
-                },
-                rels: {
-                    children: ["0fa5c6bc-5b58-40f5-a07e-d787e26d8b56",
-                        "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5f",
-                        "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5j","0fa5c6bc-5b58-40f5-a07e-d787e26d8b5kf"],
-                    spouses: ["bd56a527-b613-474d-9f38-fcac0aae218b"]
-                }
-            },
-            {
-                id: "bd56a527-b613-474d-9f38-fcac0aae218b",
-                data: {
-                    gender: "F",
-                    "first name": "Belan",
-                    "last name": "Olah",
-                    birthday: "",
-                    avatar: ""
-                },
-                rels: {
-                    spouses: ["12a9bddf-855a-4583-a695-c73fa8c0e9b2"],
-                    children: ["0fa5c6bc-5b58-40f5-a07e-d787e26d8b56",
-                        "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5f",
-                        "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5j","0fa5c6bc-5b58-40f5-a07e-d787e26d8b5kf"]
-                }
-            },
-        ];
+        $.ajax({
+            url: "data.json",
+            async: false,
+            dataType: 'json',
+            success: function(response) {
+                console.log(response)
+            }
+        });
+        console.log(data)
+        return data;
     }
 </script>
 </body>
