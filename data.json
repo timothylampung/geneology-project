@@ -1,5 +1,4 @@
 [
-
   {
     "id": "0c09cfa0-5e7c-4073-8beb-94f6c69ada19",
     "data": {
@@ -10,9 +9,13 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["0fa5c6bc-5b58-40f5-a07e-d787e26d8b56"],
-      "children": ["0fa5c6bc-5b58-40f5-a07e-d787f26d8b56",
-        "0fa5c6bscs-5b58-40f5-a07e-d787f26d8b56"]
+      "spouses": [
+        "0fa5c6bc-5b58-40f5-a07e-d787e26d8b56"
+      ],
+      "children": [
+        "0fa5c6bc-5b58-40f5-a07e-d787f26d8b56",
+        "0fa5c6bscs-5b58-40f5-a07e-d787f26d8b56"
+      ]
     }
   },
   {
@@ -21,15 +24,19 @@
       "gender": "F",
       "first name": "Priscilla",
       "last name": "Ludek",
-      "birthday": "",
+      "birthday": "asdasd",
       "avatar": ""
     },
     "rels": {
-      "spouses": ["0c09cfa0-5e7c-4073-8beb-94f6c69ada19"],
+      "spouses": [
+        "0c09cfa0-5e7c-4073-8beb-94f6c69ada19"
+      ],
       "father": "12a9bddf-855a-4583-a695-c73fa8c0e9b2",
       "mother": "bd56a527-b613-474d-9f38-fcac0aae218b",
-      "children": ["0fa5c6bc-5b58-40f5-a07e-d787f26d8b56", "0fa5c6bscs-5b58-40f5-a07e-d787f26d8b56"]
-
+      "children": [
+        "0fa5c6bc-5b58-40f5-a07e-d787f26d8b56",
+        "0fa5c6bscs-5b58-40f5-a07e-d787f26d8b56"
+      ]
     }
   },
   {
@@ -46,7 +53,6 @@
       "mother": "0fa5c6bc-5b58-40f5-a07e-d787e26d8b56"
     }
   },
-
   {
     "id": "0fa5c6bscs-5b58-40f5-a07e-d787f26d8b56",
     "data": {
@@ -72,7 +78,7 @@
     },
     "rels": {
       "father": "12a9bddf-855a-4583-a695-c73fa8c0e9b2",
-      "mother": "bd56a527-b613-474d-9f38-fcac0aae218b",
+      "mother": "bd56a527-b613-474d-9f38-fcac0aae218b"
     }
   },
   {
@@ -86,7 +92,7 @@
     },
     "rels": {
       "father": "12a9bddf-855a-4583-a695-c73fa8c0e9b2",
-      "mother": "bd56a527-b613-474d-9f38-fcac0aae218b",
+      "mother": "bd56a527-b613-474d-9f38-fcac0aae218b"
     }
   },
   {
@@ -99,8 +105,9 @@
       "avatar": ""
     },
     "rels": {
+      "adopted": "Adopted",
       "father": "12a9bddf-855a-4583-a695-c73fa8c0e9b2",
-      "mother": "bd56a527-b613-474d-9f38-fcac0aae218b",
+      "mother": "bd56a527-b613-474d-9f38-fcac0aae218b"
     }
   },
   {
@@ -114,9 +121,26 @@
     },
     "rels": {
       "father": "12a9bddf-855a-4583-a695-c73fa8c0e9b2",
-      "mother": "bd56a527-b613-474d-9f38-fcac0aae218b",
+      "mother": "bd56a527-b613-474d-9f38-fcac0aae218b"
     }
   },
+  {
+    "id": "ooa9bddf-855a-4583-a695-c73fa8c0e9b2",
+    "data": {
+      "gender": "F",
+      "first name": "Agam",
+      "last name": "Ncuk",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "0fa5c6bc-5b58-40sf5-a07e-d787e26sd8b5j"],
+      "father": "bd56as527-b61sa-474d-9f38-fcac0aae218b",
+      "mother": "12ass9bddf-855a-4583-a695-c73fa8c0e9b2"
+    }
+  },
+
   {
     "id": "12a9bddf-855a-4583-a695-c73fa8c0e9b2",
     "data": {
@@ -127,12 +151,16 @@
       "avatar": ""
     },
     "rels": {
-      "children": ["0fa5c6bc-5b58-40f5-a07e-d787e26d8b56",
+      "children": [
+        "0fa5c6bc-5b58-40f5-a07e-d787e26d8b56",
         "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5f",
         "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5j",
         "0fa5c6bc-5b58-40sf5-a07e-d787e26sd8b5j",
-        "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5kf"],
-      "spouses": ["bd56a527-b613-474d-9f38-fcac0aae218b"],
+        "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5kf"
+      ],
+      "spouses": [
+        "bd56a527-b613-474d-9f38-fcac0aae218b"
+      ],
       "father": "bd56as527-b61sa-474d-9f38-fcac0aae218b",
       "mother": "12ass9bddf-855a-4583-a695-c73fa8c0e9b2"
     }
@@ -147,17 +175,20 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["12a9bddf-855a-4583-a695-c73fa8c0e9b2"],
-      "children": ["0fa5c6bc-5b58-40f5-a07e-d787e26d8b56",
+      "spouses": [
+        "12a9bddf-855a-4583-a695-c73fa8c0e9b2"
+      ],
+      "children": [
+        "0fa5c6bc-5b58-40f5-a07e-d787e26d8b56",
         "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5f",
         "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5j",
         "0fa5c6bc-5b58-40sf5-a07e-d787e26sd8b5j",
-        "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5kf"],
+        "0fa5c6bc-5b58-40f5-a07e-d787e26d8b5kf"
+      ],
       "father": "bd-22s527-b61sa-474d-9f38-fcac0aae218b",
       "mother": "bd-22s527---1sa-474d-9f38-fcac0aae218b"
     }
   },
-
   {
     "id": "bd56as527-b61sa-474d-9f38-fcac0aae218b",
     "data": {
@@ -168,8 +199,13 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["12ass9bddf-855a-4583-a695-c73fa8c0e9b2"],
-      "children": ["12a9bddf-855a-4583-a695-c73fa8c0e9b2"]
+      "spouses": [
+        "12ass9bddf-855a-4583-a695-c73fa8c0e9b2"
+      ],
+      "children": [
+        "12a9bddf-855a-4583-a695-c73fa8c0e9b2",
+        "ooa9bddf-855a-4583-a695-c73fa8c0e9b2"
+      ]
     }
   },
   {
@@ -182,11 +218,16 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["bd56as527-b61sa-474d-9f38-fcac0aae218b"],
-      "children": ["12a9bddf-855a-4583-a695-c73fa8c0e9b2"]
+      "spouses": [
+        "bd56as527-b61sa-474d-9f38-fcac0aae218b"
+      ],
+      "children": [
+        "12a9bddf-855a-4583-a695-c73fa8c0e9b2",
+        "ooa9bddf-855a-4583-a695-c73fa8c0e9b2"
+
+      ]
     }
   },
-
   {
     "id": "bd-22s527-b61sa-474d-9f38-fcac0aae218b",
     "data": {
@@ -197,11 +238,15 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["bd-22s527---1sa-474d-9f38-fcac0aae218b"],
-      "children": ["bd56a527-b613-474d-9f38-fcac0aae218b"]
+      "spouses": [
+        "bd-22s527---1sa-474d-9f38-fcac0aae218b"
+      ],
+      "children": [
+        "bd56a527-b613-474d-9f38-fcac0aae218b",
+        "bd56a527-b613-4sdasdk9f38-fcac0aae218b"
+      ]
     }
   },
-
   {
     "id": "bd-22s527---1sa-474d-9f38-fcac0aae218b",
     "data": {
@@ -212,9 +257,67 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["bd-22s527-b61sa-474d-9f38-fcac0aae218b"],
-      "children": ["bd56a527-b613-474d-9f38-fcac0aae218b"]
+      "spouses": [
+        "bd-22s527-b61sa-474d-9f38-fcac0aae218b"
+      ],
+      "children": [
+        "bd56a527-b613-474d-9f38-fcac0aae218b",
+        "bd56a527-b613-4sdasdk9f38-fcac0aae218b"
+      ]
+    }
+  },
+  {
+    "id": "bd56a527-b613-4sdasdk9f38-fcac0aae218b",
+    "data": {
+      "gender": "M",
+      "first name": "Judson Lenchau",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": [
+        "bd56a527-b6asdjk4sdasdk9f38-fcac0aae218b"
+      ],
+      "father": "bd-22s527-b61sa-474d-9f38-fcac0aae218b",
+      "mother": "bd-22s527---1sa-474d-9f38-fcac0aae218b",
+      "children": ["bdakd0a52)Dasdjk4sdasdk9f38-fcac0aae218b"]
+    }
+  },
+  {
+    "id": "bd56a527-b6asdjk4sdasdk9f38-fcac0aae218b",
+    "data": {
+      "gender": "F",
+      "first name": "Oto",
+      "last name": "Encau",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": [
+        "bd56a527-b613-4sdasdk9f38-fcac0aae218b"
+      ],
+      "children": ["bdakd0a52)Dasdjk4sdasdk9f38-fcac0aae218b"]
+    }
+  },
+
+  {
+    "id": "bdakd0a52)Dasdjk4sdasdk9f38-fcac0aae218b",
+    "data": {
+      "gender": "M",
+      "first name": "Rejuan",
+      "last name": "Judson",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "bd56a527-b613-4sdasdk9f38-fcac0aae218b",
+      "mother": "bd56a527-b6asdjk4sdasdk9f38-fcac0aae218b"
     }
   }
+
+
+
+
 
 ]
